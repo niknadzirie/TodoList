@@ -1,2 +1,8 @@
-﻿// See https://aka.ms/new-console-template for more information
-Console.WriteLine("Hello, World!");
+﻿using System;
+using TodoList;
+
+var app = new Controller();
+
+app.Start();
+
+
